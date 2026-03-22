@@ -819,6 +819,27 @@
     Shark City Hoops · Season 30 · Est. 2011 · San Jose, CA
   </footer>
 
+  <!-- Confirmation Modal -->
+  <div class="modal-overlay" id="confirm-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <div class="modal-check">✅</div>
+        <h2>Order Received!</h2>
+        <p>Shark City Hoops · Season 30</p>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section-label">Your Order</div>
+        <div class="modal-order-lines" id="modal-order-lines"></div>
+        <div class="modal-total-row">
+          <span class="modal-total-label">Total Due</span>
+          <span class="modal-total-amount" id="modal-total"></span>
+        </div>
+        <div class="modal-payment-note" id="modal-payment-note"></div>
+        <button type="button" class="modal-close-btn" id="modal-close-btn">Done 🦈</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     // ── CONFIG ──────────────────────────────────────────────
     const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzuQ4MlA1qXDtAqYqQ7weAi1m6J1qOL9Cm_rhkLvjdU3xmX78kYks07CJhrUB2a32Eb/exec';
@@ -986,26 +1007,6 @@
 
   </script>
 
-  <!-- Confirmation Modal -->
-  <div class="modal-overlay" id="confirm-modal">
-    <div class="modal">
-      <div class="modal-header">
-        <div class="modal-check">✅</div>
-        <h2>Order Received!</h2>
-        <p>Shark City Hoops · Season 30</p>
-      </div>
-      <div class="modal-body">
-        <div class="modal-section-label">Your Order</div>
-        <div class="modal-order-lines" id="modal-order-lines"></div>
-        <div class="modal-total-row">
-          <span class="modal-total-label">Total Due</span>
-          <span class="modal-total-amount" id="modal-total"></span>
-        </div>
-        <div class="modal-payment-note" id="modal-payment-note"></div>
-        <button class="modal-close-btn" id="modal-close-btn">Done 🦈</button>
-      </div>
-    </div>
-  </div>
 
 </body>
 </html>
